@@ -1,0 +1,12 @@
+@media (max-width: 744px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar {
+    display: flex;
+    }
+    .button-black {
+        display: none;
+    }
+    
+}

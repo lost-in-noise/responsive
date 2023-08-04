@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     width: 328px;
-    gap: 24px;
+    column-gap: 24px;
     height: 20px;
 }
 .header-block {
@@ -39,4 +39,16 @@
     color: black;
     font-size: 16px;
     letter-spacing: 0.1px;
+}
+.burger-bar {
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
 }
