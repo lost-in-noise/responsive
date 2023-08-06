@@ -8,8 +8,6 @@
 .nav-ul {
     display: flex;
     justify-content: space-between;
-    width: 328px;
-    column-gap: 24px;
     height: 20px;
 }
 .header-block {
@@ -39,6 +37,7 @@
     color: black;
     font-size: 16px;
     letter-spacing: 0.1px;
+    width: 44px;
 }
 .burger-bar {
     color: #FFFFFF;
@@ -51,4 +50,10 @@
     justify-content: center;
     align-items: center;
     display: none;
+}
+.logo {
+    /* width: 101px; */
+}
+.navigation {
+    width: 328px;
 }
