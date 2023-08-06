@@ -17,6 +17,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #FFFFFF;
 }
 .button-black {
     background-color: black;
@@ -54,11 +60,24 @@
 .navigation {
     width: 328px;
 }
-
+.positions {
+    padding-top: 96px;
+}
 /* main styles */
 .container {
     max-width: 1110px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+    align-items: center;
+    column-gap: 130px;
 }
+.white-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
 .left-block {
     width: 490px;
 }
@@ -70,6 +89,7 @@
     font-size: 56px;
     line-height: 60px;
     letter-spacing: -1 px;
+    margin-bottom: 24px;
 }
 .headline-describtion {
     font-family: 'Inter-Regular';
@@ -80,4 +100,12 @@
     font-family: 'Inter-SemiBold';
     font-size: 14px;
     line-height: 20px;
+    width: 236px;
+}
+.button-descr {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 16px;
 }
