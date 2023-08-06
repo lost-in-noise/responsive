@@ -10,3 +10,14 @@
     }
     
 }
+@media (max-width: 1024px) {
+    .left-block {
+        width: 100%;
+    }
+    .right-block {
+        width: 100%;
+    }
+}
+@media (max-width: 744px) {
+    
+}

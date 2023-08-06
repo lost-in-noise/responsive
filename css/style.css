@@ -51,9 +51,33 @@
     align-items: center;
     display: none;
 }
-.logo {
-    /* width: 101px; */
-}
 .navigation {
     width: 328px;
+}
+
+/* main styles */
+.container {
+    max-width: 1110px;
+}
+.left-block {
+    width: 490px;
+}
+.right-block {
+    width: 490px;
+}
+.headline {
+    font-family: 'Inter-Black';
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1 px;
+}
+.headline-describtion {
+    font-family: 'Inter-Regular';
+    font-size: 18px;
+    line-height: 28px;
+}
+.action-descr {
+    font-family: 'Inter-SemiBold';
+    font-size: 14px;
+    line-height: 20px;
 }
