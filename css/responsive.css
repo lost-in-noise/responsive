@@ -11,7 +11,6 @@
     .headline-describtion {
         text-align: center;
         max-width: 630px;
-       
     }
     .right-block {
         width: 100%;
@@ -46,23 +45,31 @@
 
 @media (max-width: 744px) {
    .left-block {
-    width: 100%;
-    max-width: 696px;
-    row-gap: 24px;
+        width: 100%;
+        max-width: 696px;
+        row-gap: 24px;
    }
    .headline {
-    font-size: 40px;
-    line-height: 48.5px;
+        font-size: 40px;
+        line-height: 48.5px;
    }
    .left-block-child {
-    width: 100%;
-    text-align: center;
-    row-gap: 24px;
-}
-.white-section {
-    padding-top: 0;
-    padding-bottom: 0;
-}
+        width: 100%;
+        text-align: center;
+        row-gap: 24px;
+    }
+    .white-section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .button-descr {
+        margin-top: 24px;
+        padding-bottom: 24px;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 375px) {
@@ -78,5 +85,7 @@
     .white-section {
         padding-bottom: 21px;
     }
-    
+    .button-black.second {
+        display: block;
+    }
 }
