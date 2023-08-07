@@ -81,6 +81,7 @@
 .left-block {
     width: 490px;
 }
+
 .right-block {
     width: 490px;
 }
@@ -88,13 +89,14 @@
     font-family: 'Inter-Black';
     font-size: 56px;
     line-height: 60px;
-    letter-spacing: -1 px;
+    letter-spacing: -1px;
     margin-bottom: 24px;
 }
 .headline-describtion {
     font-family: 'Inter-Regular';
     font-size: 18px;
     line-height: 28px;
+    width: 100%;
 }
 .action-descr {
     font-family: 'Inter-SemiBold';
@@ -108,4 +110,9 @@
     align-items: center;
     column-gap: 20px;
     row-gap: 16px;
+}
+
+.picture-section img {
+    border-radius: 12px;
+    width: 100%;
 }
