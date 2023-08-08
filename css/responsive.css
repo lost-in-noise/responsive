@@ -44,9 +44,6 @@
         padding: 39px 32px;
     }
 }
-
-
-
 @media (max-width: 744px) {
    .left-block {
         width: 100%;
@@ -88,7 +85,6 @@
         text-align: center;
     }
 }   
-
 @media (max-width: 375px) {
     .navigation {
         display: none;
