@@ -135,7 +135,7 @@
     height: 40px;
     border-radius: 50%;
 }
-.title {
+.text-box {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -151,4 +151,5 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.1px;
+    margin-top: 16px;
 }

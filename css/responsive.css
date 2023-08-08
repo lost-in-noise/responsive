@@ -39,6 +39,10 @@
         padding-top: 44px;
         padding-bottom: 32px;
     }
+    .anti-flash {
+        column-gap: 61px;
+        padding: 39px 32px;
+    }
 }
 
 
@@ -69,8 +73,21 @@
         flex-direction: column;
         text-align: center;
     }
-    
-}
+    .anti-flash {
+        flex-direction: column;
+        padding: 0;
+    }
+    .anti-flash-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 20px;
+    }
+    .anti-flash-p {
+        margin-top: 10px;
+        text-align: center;
+    }
+}   
 
 @media (max-width: 375px) {
     .navigation {
@@ -87,5 +104,10 @@
     }
     .button-black.second {
         display: block;
+    }
+    .anti-flash-box {
+        width: 327px;
+        padding: 0;
+        margin: 24px;
     }
 }
