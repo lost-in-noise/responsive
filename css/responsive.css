@@ -45,6 +45,16 @@
     }
 }
 @media (max-width: 744px) {
+    .header-block {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .navigation {
+        max-width: 320px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
    .left-block {
         width: 100%;
         max-width: 696px;
@@ -62,6 +72,11 @@
     .white-section {
         padding-top: 0;
         padding-bottom: 0;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .container {
+        width: 100%;
     }
     .button-descr {
         margin-top: 24px;
@@ -102,7 +117,7 @@
         display: block;
     }
     .anti-flash-box {
-        width: 327px;
+        max-width: 327px;
         padding: 0;
         margin: 24px;
     }
