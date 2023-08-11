@@ -153,3 +153,35 @@
     letter-spacing: 0.1px;
     margin-top: 16px;
 }
+/* black section styles */
+.black-container {
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 133px;
+    align-items: center;
+}
+.black-section {
+    background-color: #000000;
+    padding: 96px 0;
+}
+.left-black-block {
+    width: 503.5px;
+}
+.right-black-block {
+    width: 503.5px;
+    color: #FFFFFF;
+}
+.h3-black-block {
+    font-family: 'Inter-Black';
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+}
+.p-black-block {
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
