@@ -52,8 +52,6 @@
     .navigation {
         max-width: 320px;
         width: 100%;
-        display: flex;
-        justify-content: space-between;
     }
    .left-block {
         width: 100%;
