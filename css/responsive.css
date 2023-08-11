@@ -133,8 +133,6 @@
         margin-top: 10px;
         text-align: center;
     }
-
-
     .right-black-block {
         text-align: center;
         flex-direction: column;
@@ -161,14 +159,11 @@
     }
     .black-section {
         padding: 24px;
-        
     }
     .black-container {
         row-gap: 29px;
     }
 } 
-
-
 @media (max-width: 375px) {
     .navigation {
         display: none;
@@ -189,5 +184,24 @@
         max-width: 327px;
         padding: 0;
         margin: 24px;
+    }
+
+    .h3-black-block {
+        font-size: 16px;
+    }
+    .p-black-block {
+        font-size: 14px;
+    }
+    .black-container {
+        row-gap: 14px;
+    }
+    .right-black-block-child2 {
+        row-gap: 14px;
+    }
+    .right-black-block {
+        row-gap: 14px;
+    }
+    .p4x-child2 {
+        row-gap: 2px;
     }
 }
