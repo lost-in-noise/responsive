@@ -79,6 +79,9 @@
     .h3-black-block  {
         width: 100%;
     }
+    .image-block {
+        height: 588px;
+    }
     .block-on-image {
         max-width: 600px;
         height: 204px;
@@ -184,6 +187,9 @@
     }
     .black-container {
         row-gap: 29px;
+    }
+    .image-block {
+        height: 500px;
     }
     .block-on-image {
         max-width: 744px;

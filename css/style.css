@@ -202,9 +202,13 @@
 .bg-image-section {
     position: relative;   
 }
+.image-block {
+    height: 564px;
+    object-fit: cover;
+}
 .picture-section-block img {
     width: 100%;
-    height: 564px;
+    height: 100%;
 }
 .tagline {
     font-family: 'Inter-Medium';
