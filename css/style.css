@@ -215,17 +215,20 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    
 }
 .footer-menu {
     display: flex;
     color: #FFFFFF;
+    max-width: 912px;
+    width: 100%;
+    justify-content: space-between;
 }
 .footer-logo {
-    width: 228px;
+    width: 20%;
 }
-.footer-list1 {
-    width: 228px;
+.footer-list {
+    width: 20%;
 }
 .footer-h3 {
     font-family: 'Inter-Bold';

@@ -79,6 +79,21 @@
     .h3-black-block  {
         width: 100%;
     }
+
+    .container-footer {
+        flex-direction: column;
+    }
+    .footer-list:last-child {
+        display: none;
+    }
+    .footer-logo {
+        width: 100%;
+        display: flex;
+    }
+    .footer-menu {
+    text-align: left; 
+    justify-content: flex-start;
+    }
 }
 @media (max-width: 744px) {
     .header-block {
@@ -202,5 +217,13 @@
     }
     .p4x-child2 {
         row-gap: 2px;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+    .footer-menu {
+        text-align: center;
+        justify-content: space-between;
     }
 }
