@@ -200,10 +200,11 @@
 }
 /* background image section */
 .bg-image-section {
-    position: relative;
+    position: relative;   
 }
 .picture-section-block img {
     width: 100%;
+    height: 564px;
 }
 .tagline {
     font-family: 'Inter-Medium';
@@ -218,6 +219,8 @@
     line-height: 48px;
     letter-spacing: -0.5px;
     color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .button-white {
     background-color: #F3F3F3;
@@ -233,8 +236,8 @@
     letter-spacing: 0.1px;
 }
 .block-on-image {
-    width: 511px;
-    height: 270.5px;
+    max-width: 540px;
+    height: 204px;
     text-align: center;
     position: absolute;
     top: 50%;
